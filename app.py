@@ -87,8 +87,8 @@ with col_form:
             f_col1, f_col2 = st.columns(2)
 
             with f_col1:
-                input_tarea = st.text_input("Tarea (Obligatorio)*")
-                input_fecha_limite = st.date_input("Fecha_Limite", value=None, format="YYYY-MM-DD")
+                input_tarea = st.text_input("Tarea")
+                input_fecha_limite = st.date_input("Fecha_Limit", value=None, format="YYYY-MM-DD")
 
             with f_col2:
                 input_descripcion = st.text_input("Descripcion")
